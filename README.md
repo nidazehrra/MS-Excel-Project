@@ -10,7 +10,7 @@ Simulates a basic payroll system using formulas to calculate employee compensati
 - **Gross Pay** = Basic + Allowances  
 =Basic Pay + Medical Allowance + House Rent
 - **Tax Calculation** (Conditional IF):  
-=IF(Gross Pay > 15000, Gross Pay * 5%, Gross Pay * 3%)
+=IF(Gross Pay > 15000, Gross Pay*5%, Gross Pay*3%)
 - **Net Pay** = Gross Pay – Tax  
 =Gross Pay - Tax
 - **Grade Assignment**:  
