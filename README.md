@@ -1,5 +1,6 @@
 # MS-Excel-Project
 I have used MS-Excel for completing 5 objectives. This Excel project simulates real-world administrative and data handling tasks. It includes payroll processing, utility billing, and grade calculation using various Excel functions and formulas to perform specific calculations. 
+
 ### Objective 1: Employee Payroll Sheet
 Simulates a basic payroll system using formulas to calculate employee compensation.
 - **Medical Allowance** = 7% of Basic Pay  
@@ -14,6 +15,7 @@ Simulates a basic payroll system using formulas to calculate employee compensati
 =Gross Pay - Tax
 - **Grade Assignment**:  
 =IF(Net Pay > 15000, "Grade-1", "Grade-2")
+
 **Objective 2: Electricity Utility Bill**
 Generates an electricity bill based on units consumed and calculates applicable charges.
 - **Units Consumed** 
@@ -26,6 +28,7 @@ Generates an electricity bill based on units consumed and calculates applicable 
 =Electricity Charges + Surcharge
 - **Rounded Amount** (One decimal):  
 =ROUND(Total Amount, 1)
+
 **Objective 3: Sui Gas Utility Bill**
 - **Units Consumed** = New Reading - Old Reading  
 =New reading - Old reading
@@ -35,6 +38,7 @@ Generates an electricity bill based on units consumed and calculates applicable 
 =Gas_Charges * 15%
 - **Total Amount Due**:  
 =Gas_Charges + Sales Tax
+
 **Objective 4: Student Marks Certificate**
 Creates a student mark sheet to calculate total marks, percentage, and assign grades.
 - **Total Marks** = Sum of subject scores  
