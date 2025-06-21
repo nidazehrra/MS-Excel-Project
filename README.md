@@ -43,6 +43,7 @@ Creates a student mark sheet to calculate total marks, percentage, and assign gr
 =Total Marks/Maximum Marks*100
 - **Grade Assignment (Nested IF)**:  
 =IF(Percentage >= 70, "A", IF(Percentage >= 60, "B", "C"))
+
 **Objective 5: Monthly Financial Summary**
 - **Currency Formatting** with 2 decimal places
 - **Total for Each Month** using `=SUM()`
