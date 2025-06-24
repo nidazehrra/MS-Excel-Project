@@ -3,13 +3,13 @@ I have used MS-Excel for completing 5 objectives. This Excel project simulates r
 
 ### Objective 1: Employee Payroll Sheet
 Simulates a basic payroll system using formulas to calculate employee compensation.
-- **Medical Allowance** = 7% of Basic Pay  
+- **Medical Allowance**  7% of Basic Pay  
 =Basic Pay*7%
-- **House Rent Allowance** = 45% of Basic Pay  
+- **House Rent Allowance** 45% of Basic Pay  
 =Basic Pay*45%
-- **Gross Pay** = Basic + Allowances  
+- **Gross Pay** Basic + Allowances  
 =Basic Pay + Medical Allowance + House Rent
-- **Tax Calculation** (Conditional IF):  
+- **Tax Calculation** (Conditional IF):
 =IF(Gross Pay > 15000, Gross Pay*5%, Gross Pay*3%)
 - **Net Pay** = Gross Pay – Tax  
 =Gross Pay - Tax
