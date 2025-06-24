@@ -33,11 +33,11 @@ Generates an electricity bill based on units consumed and calculates applicable 
 - **Units Consumed** = New Reading - Old Reading  
 =New reading - Old reading
 - **Gas Charges (Conditional Rate)**:  
-=IF(Units < 200, Units*1.25, Units*1.80)
+=IF(Units < 200, Units*1.25, Units*1.80) 
 - **Sales Tax (15%)**:  
-=Gas_Charges * 15%
+=Gas Charges*15%
 - **Total Amount Due**:  
-=Gas_Charges + Sales Tax
+=Gas Charges + Sales Tax
 
 **Objective 4: Student Marks Certificate**
 Creates a student mark sheet to calculate total marks, percentage, and assign grades.
