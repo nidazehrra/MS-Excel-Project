@@ -32,8 +32,8 @@ Generates an electricity bill based on units consumed and calculates applicable 
 **Objective 3: Sui Gas Utility Bill**
 - **Units Consumed** = New Reading - Old Reading  
 =New reading - Old reading
-- **Gas Charges (Conditional Rate)**:  
-=IF(Units < 200, Units*1.25, Units*1.80) 
+- **Gas Charges**:  
+=IF(Units < 200, Units * 1.25, Units * 1.80) 
 - **Sales Tax (15%)**:  
 =Gas Charges*15%
 - **Total Amount Due**:  
